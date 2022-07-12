@@ -1,0 +1,2195 @@
+body,
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+}
+
+html {
+  background: url("../assets/img/blurbackground.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+#brand a {
+  font-size: x-large;
+  color: rgb(255, 100, 0);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#brand a:hover {
+  font-size: x-large;
+  color: rgb(255, 224, 192);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#brand {
+  text-align: center;
+  margin-bottom: 65px;
+  margin-top: 25px;
+}
+
+@media (min-width: 1999px) {
+  #introSection {
+    color: white;
+    height: 75%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-position: 70% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+  }
+
+  #h1Hallo {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 100px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 20px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #naam:hover {
+    color: rgb(255, 100, 0);
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 5px;
+    padding: 68px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 224, 192);
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/travel-lede.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .box a:hover {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 2000px) {
+  #introSection {
+    color: white;
+    height: 75%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-position: 70% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+  }
+
+  #h1Hallo {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 100px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 20px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #naam:hover {
+    color: rgb(255, 100, 0);
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 100px;
+    padding: 100px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .footer {
+    color: rgb(255, 224, 192);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .footer a {
+    color: rgb(255, 100, 0);;
+  }
+}
+
+@media (max-width: 1880px) {
+  #introSection {
+    color: white;
+    height: 75%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-position: 70% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+  }
+
+  #h1Hallo {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 100px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 20px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 100px;
+    padding: 100px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 1780px) {
+  #introSection {
+    color: white;
+    height: 75%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-position: 70% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+  }
+
+  #h1Hallo {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 100px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 20px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 100px;
+    padding: 100px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 1680px) {
+  #introSection {
+    color: white;
+    height: 75%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-position: 85% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+  }
+
+  #h1Hallo {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 100px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 20px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 100px;
+    padding: 100px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 1420px) {
+  #introSection {
+    color: white;
+    height: 60%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-position: 70% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 100px;
+    padding: 100px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 20%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 1250px) {
+  #introSection {
+    color: white;
+    height: 60%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-position: 70% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+    max-width: 400px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 100px;
+    padding: 100px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 20%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 1070px) {
+  #introSection {
+    color: white;
+    height: 60%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-position-x: 80%;
+    background-position-y: 80px;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+    max-width: 400px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 100px;
+    padding: 100px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 25%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 990px) and (orientation: landscape) {
+  #introSection {
+    color: white;
+    height: 60%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-position-x: 80%;
+    background-position-y: 80px;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+    max-width: 300px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 80px;
+    padding: 80px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 30%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 990px) and (orientation: portrait) {
+  #introSection {
+    color: white;
+    height: 60%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-position-x: 10 0%;
+    background-position-y: 80px;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+    max-width: 300px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 80px;
+    padding: 80px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 30%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 840px) {
+  #introSection {
+    color: white;
+    height: 60%;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-position-x: 100%;
+    background-position-y: 80px;
+  }
+
+  #introSectionDiv {
+    padding-top: 110px;
+    max-width: 300px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 50px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 80px;
+    padding: 70px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 35%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 760px) {
+  #introSection {
+    color: white;
+    height: 600px;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 18%;
+    background-position-x: 50%;
+    background-position-y: 200px;
+  }
+
+  #introSectionDiv {
+    padding-top: 20px;
+    max-width: 600px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 30px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 80px;
+    padding: 70px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 35%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 680px) {
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 30px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 80px;
+    padding: 70px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 35%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 620px) {
+  #introSection {
+    color: white;
+    height: 700px;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-position-x: 50%;
+    background-position-y: 250px;
+  }
+
+  #introSectionDiv {
+    padding-top: 20px;
+    max-width: 600px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 30px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 80px;
+    padding: 70px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 35%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .footer {
+    font-size: 15px;
+    color: rgb(255, 224, 192);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .footer a {
+    color: rgb(255, 100, 0);;
+  }
+}
+
+@media (max-width: 420px) {
+  #introSection {
+    color: white;
+    height: 700px;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-position-x: 50%;
+    background-position-y: 350px;
+  }
+
+  #introSectionDiv {
+    padding-top: 20px;
+    max-width: 600px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 30px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 80px;
+    padding: 70px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 35%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .footer {
+    font-size: 14px;
+    color: rgb(255, 224, 192);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .footer a {
+    color: rgb(255, 100, 0);;
+  }
+}
+
+@media (max-width: 350px) {
+  #introSection {
+    color: white;
+    height: 700px;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-position-x: 50%;
+    background-position-y: 360px;
+  }
+
+  #introSectionDiv {
+    padding-top: 20px;
+    max-width: 600px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 30px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 80px;
+    padding: 70px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 35%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .footer {
+    font-size: 13px;
+    color: rgb(255, 224, 192);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .footer a {
+    color: rgb(255, 100, 0);;
+  }
+}
+
+@media (max-width: 331px) {
+  #introSection {
+    color: white;
+    height: 700px;
+    background-image: url("../assets/img/ikAfbeelding.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-position-x: 50%;
+    background-position-y: 400px;
+  }
+
+  #introSectionDiv {
+    padding-top: 20px;
+    max-width: 600px;
+  }
+
+  #h1Hallo {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #h2Naam {
+    font-size: 66px;
+    margin: 0;
+  }
+
+  #intro {
+    font-size: 15px;
+  }
+
+  .orange {
+    color: rgb(255, 100, 0);
+  }
+
+  .lightOrange {
+    color: rgb(255, 224, 192);
+  }
+
+  #scrollVoorMeer {
+    padding-top: 40px;
+  }
+
+  #scrollVoorMeer a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 100, 0);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  #scrollVoorMeer a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 224, 192);
+    padding-bottom: 15px;
+    transition: 0.5s;
+  }
+
+  .wrapper {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 30px;
+    color: #444;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 80px;
+    padding: 70px;
+    font-size: 150%;
+  }
+
+  #belevenis {
+    color: rgb(255, 100, 0);
+    text-align: center;
+    margin-top: 35%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .a {
+    background-image: url("../assets/img/pcDesk.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b {
+    background-image: url("../assets/img/ervaring.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-image: url("../assets/img/soorten-fotografie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-image: url("../assets/img/socials.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .box a {
+    color: rgb(255, 224, 192);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 1s;
+  }
+
+  .box a:hover {
+    color: rgb(255, 100, 0);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+
+  .footer {
+    font-size: 12px;
+    color: rgb(255, 224, 192);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .footer a {
+    color: rgb(255, 100, 0);;
+  }
+}

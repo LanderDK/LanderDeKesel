@@ -1,0 +1,58 @@
+body,
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* heigh  t: 100%; */
+}
+
+html {
+  background: url("../assets/img/blurbackground.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+#brand a {
+  font-size: x-large;
+  color: rgb(255, 100, 0);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#brand a:hover {
+  font-size: x-large;
+  color: rgb(255, 224, 192);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#brand {
+  text-align: center;
+  margin-bottom: 65px;
+  margin-top: 25px;
+}
+
+#const {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+footer.footer-info {
+  color: rgb(255, 224, 192);
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 99.6%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.1);
+  /* margin-bottom: -25px; */
+}
+
+.footer-info a {
+  color: rgb(255, 100, 0);
+}
