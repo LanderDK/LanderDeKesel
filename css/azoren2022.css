@@ -80,6 +80,16 @@ h1 {
   transition: 0.3s;
 }
 
+#gallery iframe {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px; /* to match column gap */
+  transition: transform 2s;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 #gallery img:hover {
   filter: none;
   /* -webkit-transform:scale(1.5); or some other value */
