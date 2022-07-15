@@ -1,0 +1,410 @@
+body,
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+}
+
+html {
+  background: url("../assets/img/blurbackground.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+#brand a {
+  font-size: x-large;
+  color: rgb(255, 100, 0);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#brand a:hover {
+  font-size: x-large;
+  color: rgb(255, 224, 192);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#brand {
+  text-align: center;
+  margin-bottom: 65px;
+  margin-top: 25px;
+}
+
+#goBack {
+  width: 75px;
+  position: fixed;
+  left: 15px;
+  top: 20px;
+  transition: 1s;
+}
+
+#goBack:hover {
+  width: 75px;
+  position: fixed;
+  left: 15px;
+  top: 20px;
+  filter: contrast(5%);
+  transition: 0.5s;
+}
+
+h1 {
+  color: rgb(255, 224, 192);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#gallery {
+  line-height: 0;
+  -webkit-column-count: 3; /* split it into 5 columns */
+  -webkit-column-gap: 5px; /* give it a 5px gap between columns */
+  -moz-column-count: 3;
+  -moz-column-gap: 5px;
+  column-count: 3;
+  column-gap: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px; /* to match column gap */
+  transition: transform 2s;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#gallery iframe {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px; /* to match column gap */
+  transition: transform 2s;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#gallery img:hover {
+  filter: none;
+  /* -webkit-transform:scale(1.5); or some other value */
+  /* transform:scale(1.5); */
+  transition: transform 2s;
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  /* width: 80%; */
+  /* max-width: 700px; */
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+div {
+  margin-bottom: 10%;
+}
+
+.footer {
+  color: rgb(255, 224, 192);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer a {
+  color: rgb(255, 100, 0);
+}
+
+#hoverMe {
+  width: 25px;
+  position: absolute;
+  left: 110px;
+  top: 20px;
+  transition: 1s;
+  filter: invert(100%);
+}
+
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+  transition: 1s;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 1200px) {
+  #gallery {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+  #gallery img {
+    filter: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  #gallery {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+  #gallery img {
+    filter: none;
+  }
+  h1 {
+    color: rgb(255, 224, 192);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  #hoverMe {
+    width: 25px;
+    position: absolute;
+    left: 110px;
+    top: 20px;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 800px) {
+  #gallery {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+  #gallery img {
+    filter: none;
+  }
+  #goBack {
+    width: 60px;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+  }
+  h1 {
+    color: rgb(255, 224, 192);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  #hoverMe {
+    width: 25px;
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    transition: 1s;
+  }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  #goBack {
+    width: 50px;
+    position: fixed;
+    left: 30px;
+    top: 25px;
+  }
+  h1 {
+    color: rgb(255, 224, 192);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #hoverMe {
+    width: 20px;
+    position: absolute;
+    left: 60px;
+    top: 8px;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 450px) {
+  #goBack {
+    width: 50px;
+    position: fixed;
+    left: 30px;
+    top: 25px;
+  }
+  h1 {
+    color: rgb(255, 224, 192);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #hoverMe {
+    width: 20px;
+    position: absolute;
+    left: 30px;
+    top: 6px;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 400px) {
+  #gallery {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+  #gallery img {
+    filter: none;
+  }
+  #goBack {
+    width: 40px;
+    position: fixed;
+    left: 30px;
+    top: 28px;
+  }
+  h1 {
+    color: rgb(255, 224, 192);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  #hoverMe {
+    width: 20px;
+    position: absolute;
+    left: 20px;
+    top: 3px;
+    transition: 1s;
+  }
+
+  @media (max-width: 380px) {
+    #hoverMe {
+      width: 20px;
+      position: absolute;
+      left: 20px;
+      top: 2px;
+      transition: 1s;
+    }
+  }
+
+  @media (max-width: 360px) {
+    #hoverMe {
+      width: 20px;
+      position: absolute;
+      left: 20px;
+      top: 1px;
+      transition: 1s;
+    }
+  }
+
+  @media (max-width: 340px) {
+    #hoverMe {
+      width: 20px;
+      position: absolute;
+      left: 20px;
+      top: 0px;
+      transition: 1s;
+    }
+  }
+
+  @media (max-width: 320px) {
+    #hoverMe {
+      width: 20px;
+      position: absolute;
+      left: 15px;
+      top: 0px;
+      transition: 1s;
+    }
+  }
+}
