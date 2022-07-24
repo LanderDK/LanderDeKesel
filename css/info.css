@@ -30,14 +30,15 @@ html {
 
 #brand {
   text-align: center;
-  margin-bottom: 65px;
+  margin-bottom: 10%;
   margin-top: 25px;
 }
 
-#const {
-  color: white;
-  font-weight: 700;
+p {
   text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 224, 192);
 }
 
 footer.footer-info {
@@ -55,4 +56,185 @@ footer.footer-info {
 
 .footer-info a {
   color: rgb(255, 100, 0);
+}
+
+@media (max-width: 1420px) {
+  p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 224, 192);
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 12%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 1250px) {
+  p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 224, 192);
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 15%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 1070px) {
+  p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 224, 192);
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 15%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 990px) {
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 224, 192);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 17%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 840px) {
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 224, 192);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 760px) {
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 224, 192);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 680px) {
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 224, 192);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 23%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 620px) {
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 224, 192);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 25%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 420px) {
+  p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(255, 224, 192);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 30%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 350px) {
+  p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 224, 192);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 40%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 331px) {
+  p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 224, 192);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #brand {
+    text-align: center;
+    margin-bottom: 40%;
+    margin-top: 25px;
+  }
 }
