@@ -34,7 +34,7 @@ html {
   margin-top: 25px;
 }
 
-p {
+#text {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
@@ -59,7 +59,7 @@ footer.footer-info {
 }
 
 @media (max-width: 1420px) {
-  p {
+  #text {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
@@ -74,7 +74,7 @@ footer.footer-info {
 }
 
 @media (max-width: 1250px) {
-  p {
+  #text {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
@@ -89,7 +89,7 @@ footer.footer-info {
 }
 
 @media (max-width: 1070px) {
-  p {
+  #text {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
@@ -104,7 +104,7 @@ footer.footer-info {
 }
 
 @media (max-width: 990px) {
-  p {
+  #text {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
@@ -121,7 +121,7 @@ footer.footer-info {
 }
 
 @media (max-width: 840px) {
-  p {
+  #text {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
@@ -138,7 +138,7 @@ footer.footer-info {
 }
 
 @media (max-width: 760px) {
-  p {
+  #text {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
@@ -155,7 +155,7 @@ footer.footer-info {
 }
 
 @media (max-width: 680px) {
-  p {
+  #text {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
@@ -172,7 +172,7 @@ footer.footer-info {
 }
 
 @media (max-width: 620px) {
-  p {
+  #text {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
@@ -189,7 +189,7 @@ footer.footer-info {
 }
 
 @media (max-width: 420px) {
-  p {
+  #text {
     text-align: center;
     font-size: 15px;
     font-weight: 500;
@@ -206,7 +206,7 @@ footer.footer-info {
 }
 
 @media (max-width: 350px) {
-  p {
+  #text {
     text-align: center;
     font-size: 14px;
     font-weight: 500;
@@ -223,7 +223,7 @@ footer.footer-info {
 }
 
 @media (max-width: 331px) {
-  p {
+  #text {
     text-align: center;
     font-size: 14px;
     font-weight: 500;
