@@ -34,6 +34,22 @@ html {
   margin-top: 25px;
 }
 
+.animation1 {
+  animation-duration: 3s;
+  animation-name: slidein1;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein1 {
+0% {
+  margin-top: 500px;
+  opacity: 0%;
+}
+100% {
+  margin-left: 0%;
+}
+}
+
 @media (max-width: 2000px) {
   .wrapper {
     margin-top: 0%;
