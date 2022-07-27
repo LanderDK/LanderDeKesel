@@ -34,6 +34,60 @@ html {
   margin-top: 25px;
 }
 
+.animation1 {
+    animation-duration: 3s;
+    animation-name: slidein1;
+    animation-iteration-count: 1;
+}
+.animation2 {
+    animation-duration: 6s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
+}
+.animation3 {
+    animation-duration: 8s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
+}
+.animation4 {
+    animation-duration: 9s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
+}
+
+@keyframes slidein1 {
+  0% {
+    margin-left: -2000px;
+    opacity: 10%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+@keyframes fadein1 {
+  0% {
+    opacity: 0%;
+  }
+  10% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  30% {
+    opacity: 0%;
+  }
+  30% {
+    opacity: 0%;
+  }
+  40% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 @media (min-width: 1999px) {
   #introSection {
     color: white;
@@ -167,6 +221,9 @@ html {
     color: white;
     height: 75%;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-position: 70% 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -309,6 +366,9 @@ html {
     color: white;
     height: 75%;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-position: 70% 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -434,6 +494,9 @@ html {
     color: white;
     height: 75%;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-position: 70% 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -559,6 +622,9 @@ html {
     color: white;
     height: 75%;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-position: 85% 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -684,6 +750,9 @@ html {
     color: white;
     height: 60%;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-position: 70% 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -809,6 +878,9 @@ html {
     color: white;
     height: 60%;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-position: 70% 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -935,6 +1007,9 @@ html {
     color: white;
     height: 60%;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 10%;
@@ -1189,6 +1264,9 @@ html {
     color: white;
     height: 60%;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 10%;
@@ -1316,6 +1394,9 @@ html {
     color: white;
     height: 60%;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 10%;
@@ -1443,6 +1524,9 @@ html {
     color: white;
     height: 600px;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 18%;
@@ -1639,6 +1723,9 @@ html {
     color: white;
     height: 700px;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 10%;
@@ -1779,6 +1866,9 @@ html {
     color: white;
     height: 700px;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 5%;
@@ -1919,6 +2009,9 @@ html {
     color: white;
     height: 700px;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 5%;
@@ -2059,6 +2152,9 @@ html {
     color: white;
     height: 700px;
     background-image: url("../assets/img/ikAfbeelding.png");
+    animation-duration: 3s;
+    animation-name: fadein1;
+    animation-iteration-count: 1;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 5%;
