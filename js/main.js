@@ -3,9 +3,9 @@ if (sessionStorage.hasOwnProperty("name")) {
 }
 
 if (!sessionStorage.hasOwnProperty("nameEntered")) {
-  alert(
-    "Note:\n\nDeze website is nog in opbouw!\nDe huidige staat is niet representatief voor het eindresultaat."
-  );
+  // alert(
+  //   "Note:\n\nDeze website is nog in opbouw!\nDe huidige staat is niet representatief voor het eindresultaat."
+  // );
 
   let naam;
   naam = prompt(
